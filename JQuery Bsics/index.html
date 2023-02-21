@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Intro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("h2").hide();
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- Basic Syntax of jQuery is:
+    $(Selector).action()
+    $== define/access jQuery,
+    (Selector)== to find HTML Elements,
+    action()== to be performed on elements
+    -->
+
+    <!-- hide p tags when button clicked -->
+
+    <h2>this is heading </h2>
+    <p>this is 1st line</p>
+    <p>this is another line</p>
+    <button>Hide</button> <!-- to achieve this we've to write script inside head tag-->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+}
+ul li a{
+  text-decoration: none;
+  padding: 10px;
+}
+img{
+  border-radius: 8px;
+}
+
+.calc{
+  max-width: 320px;
+  margin: 20px auto;;
+  box-sizing: border-box;
+}
+#answer{
+  background: #e3e3e3;
+  padding: 10px;
+  font-size: 35px;
+  border: 3px solid #333;
+  max-width: 320px;
+  max-height: 45px;
+  text-align: right;;
+}
+.button{
+  width: 80px;
+  height: 60px;
+  background: #333;
+  color: #fff;
+  font-size: 30px;
+  border:3px solid black;  
+  float: left;;
+}
+.button1{
+  width: 160px;
+}

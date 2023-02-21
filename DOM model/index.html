@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM from udemy</title>
+</head>
+
+<body>
+    <!-- while click to change text on the document -->
+    <h4 onclick="changeText(this)">click here</h4>
+
+
+    <!-- Find your age in dog years -->
+    <h2>Find your age in dog years</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>Enter your age</td>
+                <td><input type="text" name="myage" size=15></td>
+            </tr>
+            <tr>
+                <td>your age in dog years is</td>
+                <td><input type="text" name="dogage" size=15></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="calculate" onclick="dogyears(this.form)"></td>
+            </tr>
+        </table>
+    </form>
+    <!-- Find your age in dog years -->
+
+    <!-- document.write function -->
+    <h5>the result will be displayed below this line of text with: <br> document.write function</h5>
+
+    <!-- for window alert we use window.alert -->
+    <h4>for window alert we use window.alert(5+5)</h4>
+
+    <!-- getElementById with innerhtml -->
+    <div style="border:1px solid dodgerblue;width:fit-content">
+        <p id="value"> your age is:</p>
+    </div>
+
+    <!-- print minimm number -->
+    <div>
+        <p id="demo2"></p>
+    </div>
+
+    <!-- array attributes print array with , not enclosing with quotes-->
+    <div>
+        <h3 id="test"></h3>
+    </div>
+
+    <!-- for in loop -->
+    <div>
+        <span id="red"></span>
+    </div>
+
+
+    <!-- do while loop -->
+    <div>
+        <button onclick="whileclick()">clickme</button>
+    </div>
+
+    <!-- Java Script Events
+EX:-  Mouse clicks ; onMouseOover; Mouse Out; Key Down; document Load
+    -->
+
+    <div>
+        <button onclick="getElementById('demo5').innerHTML = Date()">Time</button>
+        <p id="demo5"></p>
+    </div>
+
+    <!-- onmouseover -->
+    <div>
+        <button onmouseover="getElementById('demo6').innerHTML = Date()">Time</button>
+        <p id="demo6"></p>
+    </div>
+
+    <!--onmouseout  -->
+    <div>
+        <button onmouseout="getElementById('demo7').innerHTML = Date()">Time</button>
+        <p id="demo7"></p>
+    </div>
+
+
+    <script>
+        let bgcolor = new Array ("orange", "pink", "dodgerblue", "lightpurple", "lightblue", "skyblue")
+        let change = document.body.style.background = bgcolor[Math.floor(Math.random()*bgcolor.length)]
+    </script>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
